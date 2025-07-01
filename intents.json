@@ -1,0 +1,58 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good day"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Greetings!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "I'm leaving"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you soon!",
+                "Have a nice day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Appreciate it"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help",
+                "What can you do?",
+                "How does this work?"
+            ],
+            "responses": [
+                "I'm a simple chatbot. Try asking me things like 'Hello' or 'Goodbye'",
+                "I can respond to greetings and simple questions!"
+            ]
+        }
+    ]
+}
